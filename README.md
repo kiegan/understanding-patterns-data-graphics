@@ -49,4 +49,5 @@ In order to ensure proper calculation of standard errors, we use the `survey` pa
 
 ## Contact  
 
-The corresponding author for this work is Kiegan Rice.
+This work was authored by Kiegan Rice, Sydney Bell, Taylor Wing, Heike Hofmann, and Nola du Toit. The corresponding author for this work is Kiegan Rice.  
+
