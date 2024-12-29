@@ -1,0 +1,20 @@
+﻿category,group,old_name,order,category_label,group_label
+Education,Less than HS,EducationLess.than.HS,1,EDUC5,Less than HS
+Education,HS graduate or equivalent,EducationHS.graduate.or.equivalent,2,EDUC5,HS graduate or equivalent
+Education,Some college/associates degree,EducationSome.college..associates.degree,3,EDUC5,Some college/ associates degree
+Education,Bachelors degree,EducationBachelor.s.degree,4,EDUC5,Bachelors degree
+Education,Post graduate study/professional degree,EducationPost.grad.study.professional.degree,5,EDUC5,Post grad study/professional degree
+Gender,Male,GenderMale,2,GENDER,Male
+Gender,Female,GenderFemale,1,GENDER,Female
+Age,18-29,Age18.29,1,AGE4,18-29
+Age,30-44,Age30.44,2,AGE4,30-44
+Age,45-49,Age45.59,3,AGE4,45-49
+Age,60+,Age60.,4,AGE4,60+
+Income,"Less than $30,000",IncomeLess.than..30.000,1,INCOME4,"Less than $30,000"
+Income,"$30,000 to under $60,000",Income.30.000.to.under..60.000,2,INCOME4,"$30,000 to under $60,000"
+Income,"$60,000 to under $100,000",Income.60.000.to.under..100.000,3,INCOME4,"$60,000 to under $100,000"
+Income,"$100,000 or more",Income.100.000.or.more,4,INCOME4,"$100,000 or more"
+Race/Ethnicity,"White, non-Hispanic",X.Race.Ethnicity.White..non.Hispanic,1,RACETHNICITY,"White, non-Hispanic"
+Race/Ethnicity,"Black, non-Hispanic",X.Race.Ethnicity.Black..non.Hispanic,2,RACETHNICITY,"Black, non-Hispanic"
+Race/Ethnicity,Hispanic,X.Race.Ethnicity.Hispanic,3,RACETHNICITY,Hispanic
+Race/Ethnicity,"All others, non-Hispanic",X.Race.Ethnicity.Other..non.Hispanic,4,RACETHNICITY,"Other, non-Hispanic"
