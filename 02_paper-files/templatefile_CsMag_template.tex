@@ -1,0 +1,115 @@
+\documentclass{IEEEcsmag}
+
+\usepackage[colorlinks,urlcolor=blue,linkcolor=blue,citecolor=blue]{hyperref}
+\expandafter\def\expandafter\UrlBreaks\expandafter{\UrlBreaks\do\/\do\*\do\-\do\~\do\'\do\"\do\-}
+\usepackage{upmath,color}
+\usepackage{multirow, booktabs} %added by Kiegan for table formatting
+
+%% HH: fix for CSLReferences depends on the pandoc version that's installed. Isn't that lovely.
+%% CSLReferences environment -start-
+%From Pandoc 3.1.8
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+%% CSLReferences environment -end-
+
+
+\def\tightlist{}
+
+\jvol{XX}
+\jnum{XX}
+\paper{8}
+\jmonth{Month}
+\jname{Publication Name}
+\jtitle{Publication Title}
+\pubyear{2025}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+
+
+\setcounter{secnumdepth}{0}
+
+\begin{document}
+
+\sptitle{Article Type: Special Issue on Inclusive Data Experiences}
+
+\title{$title$}
+
+\author{$first-author$}
+\affil{$first-affiliation$}
+
+\author{$second-author$}
+\affil{$first-affiliation$}
+
+\author{$third-author$}
+\affil{$first-affiliation$}
+
+\author{$fourth-author$}
+\affil{$fourth-affiliation$}
+
+\author{$fifth-author$}
+\affil{$first-affiliation$}
+
+\markboth{THEME}{THEME}
+
+\begin{abstract}
+$abstract$
+% \looseness-1Abstract text goes here. To find your publication's abstract\break word count limit, navigate to your magazine's homepage from\break \href{https://www.computer.org/csdl/magazines}{https://www.computer.org/csdl/magazines} and click Write for Us $$>$$Author Information. An abstract is a single paragraph that summarizes the significant aspects of the manuscript. Often it indicates whether the manuscript is a report of new work, a review or overview, or a combination thereof. Do not cite references in the abstract. Papers must not have been published previously and must be targeted toward the general technical reader. Papers submitted for peer review (not departments or columns) may fit into the theme of an open Call for Papers or be submitted as a ``Regular'' paper. Some Computer Society (CS) magazines provide early access to full manuscript submissions by posting a preprint of the article prior to its inclusion in an issue. Preprint articles are considered published and may be cited using their Digital Object Identifier (DOI). IEEE's Publishing Operations team will provide editorial and production services throughout the publication process.
+\end{abstract}
+
+\maketitle
+
+$body$
+
+
+\begin{IEEEbiography}{$first-author$}{\,} is a Senior Statistician at NORC at the University of Chicago. Her research interests include data visualization design, interactive data visualization development, and computational reproducibility. Dr. Rice received a Ph.D. in Statistics from Iowa State University. She is a member of the American Statistical Association and the Data Visualization Society. Contact her at rice-kiegan@norc.org.%\vadjust{\vfill\pagebreak}
+\end{IEEEbiography}
+
+\begin{IEEEbiography}{$second-author$}{\,} is a Data Analyst at NORC at the University of Chicago.  Her research interests include interactive data visualization development and statistical communication. Bell received a bachelor's degree in Mathematics from Carleton College. Contact her  at bell-sydney@norc.org.\vspace*{8pt}
+\end{IEEEbiography}
+
+\begin{IEEEbiography}{$third-author$} {\,} is a Statistician at NORC at the University of Chicago. Her research interest includes interactive data visualization development, visualization design, and survey statistics. She received a master’s degree in Statistics with a concentration in data analytic methods from the University of Virginia and is a member of the American Statistical Association. Contact her at wing-taylor@norc.org.\vspace*{8pt}
+\end{IEEEbiography}
+
+
+\begin{IEEEbiography}{$fourth-author$} {\,} is a Professor in the Department of Statistics at the University of Nebraska-Lincoln.  Her research interest include the development of methodology for observational data and data exploration with a focus on statistical graphics. She is a fellow of the American Statistical Association and a member of the International Statistical Institute. Contact her at hhofmann4@unl.edu.
+\end{IEEEbiography}
+
+
+\begin{IEEEbiography}{$fifth-author$} {\,} is a Senior Research Methodologist and Data Visualization Specialist at NORC. Her research interests include data visualization, accessibility, and equity in scientific communication. She received her PhD in Sociology from Bowling Green State University. Contact her at dutoit-nola@norc.org.
+\end{IEEEbiography}
+
+
+\end{document}
+
