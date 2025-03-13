@@ -47,12 +47,12 @@ Building on the previously mentioned points, participants are asked to answer tw
 4. Missing Important Related Work
 The paper misses several important related works that could strengthen its argument. For instance, while the paper claims that most prior studies are “performed with small groups of undergraduate students,” research by Börner et al. demonstrated the use of data visualizations with general museum visitors, and work by Peck et al. evaluated the general public’s understanding of data visualizations in a local market setting. Both studies are highly relevant as they assess data visualization comprehension among diverse, real-world audiences outside of controlled lab environments. Including these works would provide valuable context and help position this study within the broader landscape of data visualization research conducted in the wild.
 
-**Author response:** *There is not evidence to support that the Börner et al. paper represents a diverse audience as the study only reports perceived sex of participants and whether participants were youth or adults. That said, we agree that both mentioned studies provide an important view of oft-understudied groups in the literature and have added a sentence in the paper's introduction to call out these prior contributions and better situate our work among them.*
+**Author response:** *There is not evidence to support that the Börner et al. paper represents a diverse audience as the study only reports perceived sex of participants and whether participants were youth or adults. That said, we agree that both mentioned studies provide an important view of often-understudied groups in the literature and have added a sentence in the paper's introduction to call out these prior contributions and better situate our work among them.*
 
 Minor:  
 
 
-1. Consider accounting for rior data visualization experience: The study does not account for participants' prior exposure to or familiarity with data visualizations, which could significantly influence their performance and interpretation skills.
+1. Consider accounting for prior data visualization experience: The study does not account for participants' prior exposure to or familiarity with data visualizations, which could significantly influence their performance and interpretation skills.
 
 **Author response:** *This is a good point. While we are unable to incorporate this into this paper post-data collection, we believe that some of our findings suggest a strong correlation between higher levels of education and exposure to or familiarity with data visualizations given the higher performance among higher education groups. This is also a reason to study these differences further in the future -- if prior data visualization experience influences performance, that tells us something about how to improve visualization literacy among adults as a whole.*
 
@@ -60,6 +60,6 @@ Minor:
 
 **Author response:** *This is out of scope for this paper as this was not part of our data collection for these tasks. However, we also believe this is an important angle to study -- in ongoing related work we have asked participants to provide open-ended text descriptions of what a chart tells them. A research manuscript on those findings is currently in preparation.*
 
-3. Consider showing multiple visualizations per study: Participants were shown  to only one chart type in the experiment. This between-subjects design limits the ability to compare individual differences in performance across different visualization formats, which could have provided richer within-subject insights.
+3. Consider showing multiple visualizations per study: Participants were shown to only one chart type in the experiment. This between-subjects design limits the ability to compare individual differences in performance across different visualization formats, which could have provided richer within-subject insights.
 
 **Author response:** *We agree this would be beneficial for larger validation of performance comparison. We were constrained by being able to ask a limited number of questions in a given round of the survey, but are currently preparing to field a larger survey in which we show participants multiple types of charts and can account for subject-level performance across items.*  
