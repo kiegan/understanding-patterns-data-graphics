@@ -600,7 +600,11 @@ itemaccuracy_p_dat <- bind_rows(model_IS1_coefs,
   left_join(varlabels_key) |>
   mutate(category = ifelse(is.na(category), "(Intercept)", category), 
          demographic = ifelse(is.na(demographic), "(Intercept)", demographic)) |>
-  mutate(demographic = factor(demographic, levels = c("(Intercept)", "Design", "speederISitems", "Device", "Education", "Income", "Age", "Gender", "Race/Ethnicity"))) 
+  mutate(demographic = factor(demographic, levels = c("(Intercept)", "Design", "speederISitems", "Device", "Education", "Income", "Age", "Gender", "Race/Ethnicity"))) |>
+    mutate(
+    category = factor(category, 
+                  levels = c("(Intercept)",  "Line", "Diverging Stacked Bar", "speeder", "Tablet, Smartphone, or Other", "HS graduate or equivalent", "Some college/ associates degree",  "Bachelor's degree",  "Post grad study/professional degree", "$30,000 to under $60,000", "$60,000 to under $100,000", "$100,000 or more","30-44", "45-59", "60+", "Female", "White, non-Hispanic", "Hispanic", "Black, non-Hispanic"))
+  ) 
 
 itemaccuracy_p <- itemaccuracy_p_dat |>
     ggplot() +
