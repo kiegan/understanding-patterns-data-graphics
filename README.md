@@ -1,6 +1,6 @@
 # understanding-patterns-data-graphics
 
-Data, code, and analyses of for "Measuring Real-World Understanding of Patterns in Data Graphics", a manuscript submitted to the IEEE CG&A Special Issue on Inclusive Data Experiences.  
+Data, code, and analyses of for "Measuring Real-World Understanding of Patterns in Data Graphics", a manuscript accepted for publication in the IEEE CG&A Special Issue on Inclusive Data Experiences.  
 
 This work focuses on measuring ability to interpret content presented in data graphics and how that ability differs across subgroups within the U.S. adult population. 
 
